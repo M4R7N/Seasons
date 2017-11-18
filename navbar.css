@@ -18,6 +18,7 @@
 .nav > .title
 {
     font-weight: bold;
+    cursor: default;
 }
 .nav > .btn
 {
