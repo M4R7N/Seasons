@@ -10,10 +10,13 @@ body
 {
     background: #263238;
 }
-h1
+.center-text
 {
-    margin: 5vh 0;
     text-align: center;
+}
+.line-space
+{
+    line-height: 6vh;
 }
 #season-spring
 {
@@ -42,6 +45,7 @@ h1
 .card
 {
     box-sizing: border-box;
+    overflow: hidden;
     min-height: 50px;
     padding: 16px;
     background-color: #FFF;
