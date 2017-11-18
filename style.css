@@ -5,3 +5,47 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+h1
+{
+    margin: 5vh 0;
+    text-align: center;
+}
+#season-spring
+{
+    background-image: url('media/spring.jpg');
+    background-size: cover;
+    height: 25vw;
+}
+#season-summer
+{
+    background-image: url('media/summer.jpg');
+    background-size: cover;
+    height: 25vw;
+}
+#season-autumn
+{
+    background-image: url('media/autumn.jpg');
+    background-size: cover;
+    height: 25vw;
+}
+#season-winter
+{
+    background-image: url('media/winter.jpg');
+    background-size: cover;
+    height: 25vw;
+}
+.card
+{
+    box-sizing: border-box;
+    min-height: 50px;
+    padding: 16px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.card:hover
+{
+    z-index: 1;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transform: scale(1.1);
+}
