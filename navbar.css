@@ -76,7 +76,7 @@
     line-height: 32px;
     color: #FFF;
 }
-.menu > a
+.menu > a, .menu > span, .menu > p
 {
     display: block;
     width: 100%;
