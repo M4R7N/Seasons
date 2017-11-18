@@ -19,25 +19,25 @@ h1
 {
     background-image: url('media/spring.jpg');
     background-size: cover;
-    height: 25vw;
+    height: 35vh;
 }
 #season-summer
 {
     background-image: url('media/summer.jpg');
     background-size: cover;
-    height: 25vw;
+    height: 35vh;
 }
 #season-autumn
 {
     background-image: url('media/autumn.jpg');
     background-size: cover;
-    height: 25vw;
+    height: 35vh;
 }
 #season-winter
 {
     background-image: url('media/winter.jpg');
     background-size: cover;
-    height: 25vw;
+    height: 35vh;
 }
 .card
 {
