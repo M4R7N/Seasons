@@ -1,6 +1,7 @@
 ﻿.card
 {
 	z-index: 0;
+	box-sizing: border-box;
 	border-radius: 1px;
 	padding: 16px;
 	overflow: hidden;
@@ -23,7 +24,6 @@
 }
 .active
 {
-	z-index: 1;
 	cursor: pointer;
 }
 .active:active
@@ -32,10 +32,19 @@
 }
 .card-section
 {
-	width: 100%;
+	width: calc(100% + 32px);
 	padding: 16px;
-	margin: 0 -16px;
-	background: #DDD;
+	margin: -16px;
+	background-color: #E3E3E3;
+}
+.card-section-bottom
+{
+	width: calc(100% + 32px);
+	padding: 16px;
+	margin: -16px;
+	background-color: #E3E3E3;
+	position: absolute;
+	bottom: 16px;
 }
 
 .card > .card-bottom
@@ -56,4 +65,8 @@
 {
 	z-index: 1;
     bottom: 0;
+}
+.card > .card-bottom *
+{
+	background-color: #E3E3E3;
 }
