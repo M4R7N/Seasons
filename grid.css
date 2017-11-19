@@ -6,6 +6,12 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.container
+{
+    padding: 16px;
+    margin: 0;
+    width: 100%;
+}
 /*PHONE AND DEFAULT*/
 [class*="col-"]
 {
