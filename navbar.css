@@ -27,7 +27,7 @@
 .nav > i.icon::after
 {
     content: '';
-    position: fixed;
+    position: absolute;
     left: 28px;
     top: 28px;
     width: 0px;
