@@ -8,6 +8,8 @@
 }
 .container
 {
+    overflow: auto;
+    clear: both;
     padding: 16px;
     margin: 0;
     width: 100%;
