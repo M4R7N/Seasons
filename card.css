@@ -88,7 +88,7 @@
     position: absolute;
     bottom: -100%;
 }
-.card:hover > .card-bottom
+.card:active > .card-bottom, .card-bottom:hover
 {
 	z-index: 1;
     bottom: 0;
