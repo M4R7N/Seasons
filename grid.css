@@ -23,6 +23,18 @@
     margin-left: 0;
     margin-right: 0;
 }
+.row-s-1 {height: 8.33vh;}
+.row-s-2 {height: 16.66vh;}
+.row-s-3 {height: 25vh;}
+.row-s-4 {height: 33.33vh;}
+.row-s-5 {height: 41.66vh;}
+.row-s-6 {height: 50vh;}
+.row-s-7 {height: 58.33vh;}
+.row-s-8 {height: 66.66vh;}
+.row-s-9 {height: 75vh;}
+.row-s-10 {height: 83.33vh;}
+.row-s-11 {height: 91.66vh;}
+.row-s-12 {height: 100vh;}
 /*TEXT*/
 *
 {
@@ -79,6 +91,18 @@ h6
     .col-m-10 {width: 83.33%;}
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
+    .row-m-1 {height: 8.33vh;}
+    .row-m-2 {height: 16.66vh;}
+    .row-m-3 {height: 25vh;}
+    .row-m-4 {height: 33.33vh;}
+    .row-m-5 {height: 41.66vh;}
+    .row-m-6 {height: 50vh;}
+    .row-m-7 {height: 58.33vh;}
+    .row-m-8 {height: 66.66vh;}
+    .row-m-9 {height: 75vh;}
+    .row-m-10 {height: 83.33vh;}
+    .row-m-11 {height: 91.66vh;}
+    .row-m-12 {height: 100vh;}
     *
     {
         font-size: 20px;
@@ -135,6 +159,18 @@ h6
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+    .row--1 {height: 8.33vh;}
+    .row--2 {height: 16.66vh;}
+    .row--3 {height: 25vh;}
+    .row--4 {height: 33.33vh;}
+    .row--5 {height: 41.66vh;}
+    .row--6 {height: 50vh;}
+    .row--7 {height: 58.33vh;}
+    .row--8 {height: 66.66vh;}
+    .row--9 {height: 75vh;}
+    .row--10 {height: 83.33vh;}
+    .row--11 {height: 91.66vh;}
+    .row--12 {height: 100vh;}
     *
     {
         font-size: 16px;
