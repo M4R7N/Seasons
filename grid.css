@@ -10,7 +10,7 @@
 {
     overflow: auto;
     clear: both;
-    padding: 8px 16px;
+    padding: 0 16px 16px 16px;
     margin: 0;
     width: 100%;
 }
