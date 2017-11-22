@@ -4,6 +4,7 @@
     box-sizing: border-box;
     position: relative;
     padding: 16px;
+    margin: 0 0 16px 0;
     background-color: inherit;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
@@ -17,8 +18,11 @@
 {
     position: relative;
     left: 12px;
+    font-weight: bold !important;
+}
+.nav > .title.fix
+{
     top: -6px;
-    font-weight: bold;
 }
 .nav > i.icon
 {
