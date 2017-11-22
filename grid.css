@@ -6,13 +6,17 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-.container
+.row
 {
     overflow: auto;
     clear: both;
-    padding: 16px;
+    padding: 0 16px 16px 16px;
     margin: 0;
     width: 100%;
+}
+.centered
+{
+    transform: 0;
 }
 /*PHONE AND DEFAULT*/
 [class*="col-"]
@@ -68,6 +72,10 @@ h6
 /*TABLET*/
 @media only screen and (min-width: 730px)
 {
+    .centered
+    {
+        transform: translateX(-50%);
+    }
     .left-m-1 {margin-left: 8.33%;}
     .left-m-2 {margin-left: 16.66%;}
     .left-m-3 {margin-left: 25%;}
@@ -135,6 +143,10 @@ h6
 /*DESKTOP*/
 @media only screen and (min-width: 1024px)
 {
+    .centered
+    {
+        transform: translateX(-50%);
+    }
     .left-0 {margin-left: 0;}
     .left-1 {margin-left: 8.33%;}
     .left-2 {margin-left: 16.66%;}

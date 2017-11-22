@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<!-- transition -->
+<head>
+<meta charset="utf-8">
+<style>
+body{
+	background-color: gray;
+	margin: 0;
+}
+.layout{
+	margin: 0 auto 0 auto;
+	width: 50%;
+	height: 100%;
+}
+img{
+	width: 100%;
+	opacity: 0.69;
+    transition: all 0.6s cubic-bezier(.25,.8,.25,1);
+	transform: scale(0.98);
+	box-shadow: 3px 3px 3px black;
+}
+img:hover{
+	z-index: 1;
+	transform: scale(1);
+	opacity: 1;
+	box-shadow: 7px 7px 7px black;
+}
+.kep1{
+	background-size: 100% 100%;
+	width: 100%;
+}
+</style>
+</head>
+<body>
+<div class="layout">
+	<div class="kep1">
+		<img src="media/teli1080.jpg">
+	</div>
+</div>
+</body>
+</html>
